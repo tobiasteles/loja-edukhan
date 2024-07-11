@@ -164,6 +164,20 @@ body {
     min-width: 100px;
   }
   
+  .social {
+    font-size: 2.5rem;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  }
+
+  .container p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
   @media (max-width: 768px) {
     .product {
       width: calc(50% - 30px); /* 2 produtos por linha em telas menores */
